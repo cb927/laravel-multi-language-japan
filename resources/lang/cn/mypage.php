@@ -1,0 +1,23 @@
+<?php
+return [
+	'mypage_member'=>'会员页面',
+	'mypage_sumary'=>'帐户摘要',
+	'mypage_affiliate'=>'会员合作伙伴注册',
+	'mypage_history'=>'历史',
+	'mypage_money'=>'存款/取款',
+	'mypage_move'=>'汇款',
+	'mypage_add'=>'其他帐户',
+	'mypage_setting'=>'设置',
+	'mypage_name'=>'名称',
+	'mypage_number'=>'帐号',
+	'mypage_type'=>'帐户类型',
+	'mypage_leverage'=>'杠杆',
+	'mypage_main'=>'电子邮件地址',
+	'mypage_open'=>'开业日期',
+	'mypage_remain'=>'帐户余额',
+	'mypage_effective'=>'有效保证金',
+	'mypage_need'=>'保证金要求',
+	'mypage_margin'=>'剩余保证金',
+	'mypage_rate'=>'保证金维持率',
+	'mypage_status'=>'状态',
+];

@@ -1,0 +1,41 @@
+﻿
+        
+/*
+    口座サマリー部分
+*/
+
+.text_right_box2
+{
+    text-align:right;
+}
+
+.text_left_box2
+{
+    text-align:left;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 992px)
+{
+    .text_right_box3
+    {
+        text-align:right;
+    }
+}
+
+@media screen and (max-width: 991px)
+{
+    .text_right_box3
+    {
+        text-align:left;
+    }
+
+    .register_form input[type="text"]{
+        width:100%;
+    }
+}

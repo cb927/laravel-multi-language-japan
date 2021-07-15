@@ -1,0 +1,23 @@
+<?php
+return [
+	'bank_out' => 'Prelievo bancario',
+    'bank_credit' => 'Deposito di credito',
+	'bank_number' => 'Numero di conto di origine del prelievo',
+	'bank_invoice' => 'Importo della richiesta di prelievo',
+	'bank_info' => 'Dati bancari di destinazione della rimessa',
+	'bank_add' => 'Aggiungi banca registrata',
+	'bank_account_name' => '* Nome del titolare del conto bancario',
+	'bank_account_address' => '* Indirizzo del titolare del conto bancario',
+	'bank_number' => '* Numero di conto del destinatario',
+	'bank_name' => '* bank name',
+	'bank_shop' => '* nome filiale',
+	'bank_type' => '* Normale / Temporaneo',
+	'bank_account_add' => 'Aggiungi account',
+	'bank_password' => 'Inserisci password M4',
+	'bank_1' => '◇ Il trading di strumenti finanziari comporta un rischio elevato, quindi per favore investi fondi in grado di sopportare la perdita',
+	'bank_2' => '◇ In alcuni casi, il riflesso dei depositi nel conto potrebbe essere ritardato del solito',
+	'bank_3' => '◇ Se per errore depositi una valuta, un gettone, ecc. che non gestiamo, in linea di principio non saremo in grado di restituirli. Anche se può essere restituito, ',
+	'bank_4' => 'Potrebbe esserti richiesto di pagare le relative commissioni. ',
+	'bank_5' => '◇ Verrà addebitata una commissione di gestione (2,5%) per il pagamento. ',
+	'bank_6' => '◇ Per il tasso di cambio, viene applicato il tasso di Mitsubishi UFJ Bank (TTS AM11: 00). ',
+];

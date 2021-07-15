@@ -1,0 +1,23 @@
+<?php
+return [
+	'bank_out' => 'Retrait bancaire',
+    'bank_credit' => 'Dépôt de crédit',
+	'bank_number' => 'Numéro de compte source du retrait',
+	'bank_invoice' => 'Montant de la demande de retrait',
+	'bank_info' => 'Informations bancaires de destination de paiement',
+	'bank_add' => 'Ajouter une banque enregistrée',
+	'bank_account_name' => '* Nom du titulaire du compte bancaire',
+	'bank_account_address' => '* Adresse du titulaire du compte bancaire',
+	'bank_number' => '* Numéro de compte du destinataire',
+	'bank_name' => '* nom de la banque',
+	'bank_shop' => '* nom de la succursale',
+	'bank_type' => '* Normal / Temporaire',
+	'bank_account_add' => 'Ajouter un compte',
+	'bank_password' => 'Entrez le mot de passe M4',
+	'bank_1' => "◇ Le trading d'instruments financiers comporte un risque élevé, veuillez donc investir des fonds capables de résister à la perte",
+	'bank_2' => "◇ Dans certains cas, la réflexion des dépôts sur le compte peut être retardée que d'habitude",
+	'bank_3' => "◇ Si vous déposez par erreur une devise, un jeton, etc. que nous ne gérons pas, nous ne pourrons en principe pas le restituer. Même s'il peut être retourné,",
+	'bank_4' => 'Vous devrez peut-être payer les frais associés. ',
+	'bank_5' => '◇ Des frais de traitement (2,5%) seront facturés pour le paiement. ',
+	'bank_6' => '◇ Pour le taux de change, le taux de Mitsubishi UFJ Bank (TTS AM11: 00) est appliqué. ',
+];

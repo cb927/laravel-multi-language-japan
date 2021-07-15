@@ -1,0 +1,29 @@
+﻿
+
+/*
+    会員ページプロフィールのデザイン
+*/
+
+.black_float_box
+{
+    color:white;
+    text-align:center;
+    padding:10px;
+    box-shadow: 6px 6px 6px 3px rgba(0,0,0,0.6);
+    background: linear-gradient(0.25turn, #0F141C,#343F47);
+}
+
+.white_float_box
+{
+    color:black;
+    text-align:center;
+    padding:10px;
+    box-shadow: 6px 6px 6px 3px rgba(0,0,0,0.6);
+    background: white;
+}
+
+.text_right_box
+{
+    text-align:right;
+    padding:10px;
+}

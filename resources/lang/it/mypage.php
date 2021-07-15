@@ -1,0 +1,23 @@
+<?php
+return [
+    'mypage_member' => 'pagina membro',
+	'mypage_sumary' => 'Riepilogo account',
+	'mypage_affiliate' => 'Registrazione partner affiliato',
+	'mypage_history' => 'Cronologia',
+	'mypage_money' => 'Deposito / Prelievo',
+	'mypage_move' => 'Trasferimento di denaro',
+	'mypage_add' => 'Account aggiuntivo',
+	'mypage_setting' => 'impostazione',
+	'mypage_name' => 'name',
+	'mypage_number' => 'numero di conto',
+	'mypage_type' => 'Tipo di account',
+	'mypage_leverage' => 'Leva finanziaria',
+	'mypage_main' => 'indirizzo email',
+	'mypage_open' => 'Data di apertura',
+	'mypage_remain' => 'Saldo del conto',
+	'mypage_effective' => 'Margine effettivo',
+	'mypage_need' => 'Requisito di margine',
+	'mypage_margin' => 'surplus margin',
+	'mypage_rate' => 'Tasso di mantenimento del margine',
+	'mypage_status' => 'status',
+];

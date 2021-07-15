@@ -1,0 +1,23 @@
+<?php
+return [
+	'mypage_member' => 'página de membro',
+	'mypage_sumary' => 'Resumo da conta',
+	'mypage_affiliate' => 'Registro de parceiro afiliado',
+	'mypage_history' => 'Histórico',
+	'mypage_money' => 'Depósito / Retirada',
+	'mypage_move' => 'Transferência de dinheiro',
+	'mypage_add' => 'Conta adicional',
+	'mypage_setting' => 'configuração',
+	'mypage_name' => 'nome',
+	'mypage_number' => 'número da conta',
+	'mypage_type' => 'Tipo de conta',
+	'mypage_leverage' => 'Leverage',
+	'mypage_main' => 'endereço de e-mail',
+	'mypage_open' => 'Data de abertura',
+	'mypage_remain' => 'Saldo da conta',
+	'mypage_effective' => 'Margem efetiva',
+	'mypage_need' => 'Requisito de margem',
+	'mypage_margin' => 'margem excedente',
+	'mypage_rate' => 'Taxa de manutenção de margem',
+	'mypage_status' => 'status',
+];

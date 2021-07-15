@@ -1,0 +1,23 @@
+<?php
+return [
+	'mypage_member' =>'member page',
+	'mypage_sumary' =>'Account Summary',
+	'mypage_affiliate' =>'Affiliate Partner Registration',
+	'mypage_history' =>'History',
+	'mypage_money' =>'Deposit / Withdrawal',
+	'mypage_move' =>'Money transfer',
+	'mypage_add' =>'Additional account',
+	'mypage_setting' =>'setting',
+	'mypage_name' =>'name',
+	'mypage_number' =>'account number',
+	'mypage_type' =>'Account type',
+	'mypage_leverage' =>'Leverage',
+	'mypage_main' =>'email address',
+	'mypage_open' =>'Opening date',
+	'mypage_remain' =>'Account Balance',
+	'mypage_effective' =>' Effective Margin',
+	'mypage_need' =>'Margin requirement',
+	'mypage_margin' =>'surplus margin',
+	'mypage_rate' =>'Margin maintenance rate',
+	'mypage_status' =>'status',
+];

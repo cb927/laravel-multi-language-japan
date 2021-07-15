@@ -1,0 +1,23 @@
+<?php
+return [
+	'mypage_member' => 'صفحة الأعضاء' ,
+	"mypage_sumary" => "ملخص الحساب" ,
+	'mypage_affiliate' => 'تسجيل الشريك التابع' ,
+	'mypage_history' => 'التاريخ' ,
+	'mypage_money' => 'إيداع / سحب' ,
+	"mypage_move" => "تحويل الأموال" ,
+	'mypage_add' => "حساب إضافي" ,
+	"mypage_setting" => "إعداد" ,
+	'mypage_name' => 'name' ,
+	"mypage_number" => "رقم الحساب" ,
+	"mypage_type" => "نوع الحساب" ,
+	'mypage_leverage' => 'الرافعة المالية' ,
+	"mypage_main" => "عنوان البريد الإلكتروني" ,
+	'mypage_open' => "تاريخ الافتتاح" ,
+	"mypage_remain" => "رصيد الحساب" ,
+	"mypage_effective" => "الهامش الفعال" ,
+	'mypage_need' => 'متطلبات الهامش' ,
+	'mypage_margin' => 'الهامش الزائد' ,
+	'mypage_rate' => "معدل صيانة الهامش" ,
+	'mypage_status' => 'الحالة' ,
+];

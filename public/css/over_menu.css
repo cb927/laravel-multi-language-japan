@@ -1,0 +1,37 @@
+﻿
+
+/*
+    会員ページメニューバーのデザイン
+*/
+
+.member_page_title
+{
+    padding-top:40px;
+}
+
+.overmenus
+{
+    padding:10px;
+}
+
+.overmenu
+{
+    background-color:gray;
+    border: 2px solid;
+    border-color: white;
+}
+
+.overmenu a
+{
+    color:black;
+}
+
+.overmenu.active
+{
+    background-color:#009800;
+}
+
+.overmenu.active a
+{
+    color:white;
+}

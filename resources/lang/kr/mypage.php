@@ -1,0 +1,23 @@
+<?php
+return [
+	'mypage_member'=> '회원 페이지',
+	'mypage_sumary'=> '계정 요약',
+	'mypage_affiliate'=> '제휴 파트너 등록',
+	'mypage_history'=> '히스토리',
+	'mypage_money'=> '입출금',
+	'mypage_move'=> '자금 이동',
+	'mypage_add'=> '추가 계좌',
+	'mypage_setting'=> '설정',
+	'mypage_name'=> '이름',
+	'mypage_number'=> '계좌 번호',
+	'mypage_type'=> '계정 종류',
+	'mypage_leverage'=> '활용',
+	'mypage_main'=> '이메일 주소',
+	'mypage_open'=> '개설일',
+	'mypage_remain'=> '계정 잔고',
+	'mypage_effective'=> '사용 증거금',
+	'mypage_need'=> '필요 증거금',
+	'mypage_margin'=> '잉여 증거금',
+	'mypage_rate'=> '증거금 유지율',
+	'mypage_status'=> '상태',
+];

@@ -1,0 +1,23 @@
+<?php
+return [
+	'bank_out' => 'Retiro bancario',
+    'bank_credit' => 'Depósito de crédito',
+	'bank_number' => 'Número de cuenta de origen de retiro',
+	'bank_invoice' => 'Importe de la solicitud de retiro',
+	'bank_info' => 'Información bancaria de destino de la remesa',
+	'bank_add' => 'Agregar banco registrado',
+	'bank_account_name' => '* Nombre del titular de la cuenta bancaria',
+	'bank_account_address' => '* Dirección del titular de la cuenta bancaria',
+	'bank_number' => '* Número de cuenta del destinatario',
+	'bank_name' => '* nombre del banco',
+	'bank_shop' => '* nombre de la sucursal',
+	'bank_type' => '* Normal / Temporal',
+	'bank_account_add' => 'Agregar cuenta',
+	'bank_password' => 'Ingrese la contraseña M4',
+	'bank_1' => '◇ El comercio de instrumentos financieros implica un alto riesgo, así que invierta fondos que puedan soportar la pérdida',
+	'bank_2' => '◇ En algunos casos, el reflejo de los depósitos en la cuenta puede retrasarse de lo habitual',
+	'bank_3' => '◇ Si deposita por error una moneda, token, etc. que no manejamos, no podremos devolverlo en principio. Incluso si se puede devolver, ',
+	'bank_4' => 'Es posible que deba pagar las tarifas relacionadas. ',
+	'bank_5' => '◇ Se cobrará una tarifa de gestión (2,5%) por el pago. ',
+	'bank_6' => '◇ Para el tipo de cambio, se aplica el tipo de cambio de Mitsubishi UFJ Bank (TTS AM11: 00). ',
+];

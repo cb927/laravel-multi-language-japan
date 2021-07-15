@@ -1,0 +1,20 @@
+<?php
+return [
+	'setting_set'=>'设置',
+	'setting_mam'=>'MAM帐户寄售协议',
+	'setting_1'=>'如果您希望批准您的MAM帐户，请点击下面的“应用”按钮，然后',
+	'setting_2'=>'·良好的FX帐号',
+	'setting_3'=>'·使用的电子邮件地址',
+	'setting_4'=>'·名称（罗马字）',
+	'setting_5' =>'请填写以完成注册。 ',
+	'setting_submit'=>'submit',
+	'setting_stage'=>'两步认证',
+	'setting_method'=>'两步身份验证用法：',
+	'setting_two' => '两步身份验证如何使用：',
+	'setting_two_1' => '每次登录到TASNIC CAPITAL成员网站时，',
+	'setting_two_2' => '都将需要您的用户名和密码，',
+	'setting_two_3'=> '以及智能手机上Google Authenticator应用程序生成的代码。',
+	'setting_two_4'=> '您需要输入验证码才能登录。',
+	'setting_two_5'=> '如果您的帐户密码泄露，',
+	'setting_two_6'=> '这将有效防止您的帐户受到损害。',	
+];

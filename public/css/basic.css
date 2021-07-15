@@ -1,0 +1,538 @@
+﻿/*
+    全体共通
+*/
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg_black_01.jpg);
+    background-size: 100%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row [class*='col'] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-wrap {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    background-color: white
+}
+
+a {
+    color: white;
+}
+
+.menu {
+    text-align: center;
+    padding: 0px;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.green_back_box {
+    background-color: #009800;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.green_color {
+    color: #009800;
+}
+
+.red_back_box {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.small_text_box {
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+}
+
+.wide_padding_box {
+    padding: 8px 40px;
+}
+
+.narrow_padding_box {
+    padding: 8px 8px;
+}
+
+.pad0 {
+    padding: 0px;
+}
+
+.pad_vertical {
+    padding: 10px 15px;
+}
+
+.pad_vertical2 {
+    padding: 2px 0px;
+}
+
+.input_bank_withdraw {
+    width: 100%;
+    height: 35px;
+}
+
+.labeltext35 {
+    line-height: 35px;
+}
+
+.noneborder>tbody>tr>td, .noneborder>tbody>tr>th, .noneborder>thead>tr>th {
+    border-style: none;
+}
+
+.box_shadow {
+    box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.6);
+}
+
+h1, h2, h3 {
+    font-size: 24px;
+}
+
+.footer_menu {
+    padding: 20px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.common-button {
+    color: white;
+    background-color: green;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .5s;
+    border: 1px white solid;
+}
+
+.common-button:hover {
+    text-decoration: none;
+    color: green;
+    background-color: white;
+    border: 1px green solid;
+}
+
+.form-label {
+    text-align: right;
+    line-height: 40px;
+    padding-right: 10px !important;
+}
+
+.aff-partner div {
+    width: fit-content;
+    margin: 0 0 0 auto;
+}
+
+.aff-partner .btn {
+    margin-right: 0;
+    margin-left: auto;
+    background: green;
+    border: none;
+    border-radius: 0px;
+}
+
+@media screen and (max-width: 525px) {
+    .aff-partner div {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .aff-partner .btn {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .gradient-div {
+        background-image: linear-gradient(to right, #11151c, #363f47);
+        padding: 10px;
+        text-align: center;
+        color: white;
+        box-shadow: 5px 5px 5px #555a5f;
+    }
+    .gradient-div-main {
+        font-size: 18px;
+        /* width: 90%; */
+    }
+    .gradient-div-submain {
+        font-size: 14px;
+        width: 60%;
+    }
+    .mypage-wrapper {
+        padding: 40px;
+        /* margin-bottom: 100px */
+    }
+    .d-flex-around {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .mypage-menu {
+        width: 27%;
+        text-align: center;
+        padding: 6px;
+        background-color: #b1b1b1;
+        color: #5a5a5a
+    }
+    .mypage-menu-active {
+        background-color: #009524;
+        color: white
+    }
+    .temp-div {
+        width: 65%;
+    }
+    .my-page-number {
+        width: 70%;
+        padding-left: 20px;
+    }
+    .d-flex-right {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .d-flex-right span {
+        font-weight: bold;
+        margin-right: 15px
+    }
+    .d-flex-center {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .green-part p {
+        font-weight: bold;
+        color: #009524;
+        text-align: right;
+        margin-right: 25px;
+        font-size: 20px
+    }
+    .gray-part p {
+        margin-left: 25px;
+        font-size: 20px
+    }
+    .mypage-detail-wrapper {
+        margin-top: 50px;
+    }
+    .mypage-detail-wrapper .title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 24px
+    }
+    .mypage-detail-wrapper .subtitle {
+        font-size: 15px;
+        text-align: center;
+    }
+    .mypage-detail-wrapper .subcontent {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .mypage-detail-wrapper .subcontent-red {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        color: rgb(255, 24, 24);
+        ;
+        margin: 35px 0px;
+    }
+    .my-page-danger-button {
+        background-color: rgb(255, 24, 24);
+        font-size: 22px;
+        font-weight: bold;
+        height: 50px !important;
+        border: 2px solid white;
+        box-shadow: 5px 5px 5px #363f47;
+    }
+    .mypage-detail-wrapper .content {
+        font-size: 16px;
+        padding: 40px;
+        font-weight: 500;
+    }
+    .mypage-detail-wrapper .my-page-button {
+        display: flex;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        color: white;
+        height: 40px;
+    }
+    .mypage-detail-wrapper .my-page-button-red {
+        background-color: rgb(255, 24, 24)
+    }
+    .mypage-detail-wrapper .my-page-button-green {
+        background-color: #009524
+    }
+    .mypage-detail-wrapper .my-page-input {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        height: 40px;
+        border: 1px solid gray;
+        border-radius: 0;
+    }
+    .mypage-detail-wrapper .my-page-input1 {
+        display: flex;
+        width: 70%;
+        height: 40px;
+        border: 1px solid gray;
+        border-radius: 0;
+    }
+    .my-page-form-group {
+        width: 80%;
+        padding: 40px;
+    }
+    .my-page-side-bar {
+        padding-right: 10px !important
+    }
+    .my-page-main-content {
+        padding-left: 30px !important
+    }
+    .deposit-menu {
+        width: 120px;
+    }
+    .half {
+        width: 30% !important;
+        margin: 0 !important;
+        margin-bottom: 50px !important;
+    }
+    .per80 {
+        width: 88% !important;
+        margin: 0 !important;
+        margin-right: 2% !important
+    }
+    .per20 {
+        width: 10% !important;
+        margin: 0 !important;
+    }
+    .margin-top-zero {
+        margin-top: 0 !important
+    }
+    .d-flex-center span {
+        font-weight: bold;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    .divider1 {
+        height: 1px;
+        background: gray;
+        margin: 20px 0px;
+        margin-top: 50px
+    }
+    .divider2 {
+        height: 1px;
+        background: gray;
+        margin: 20px 0px;
+        margin-top: 70px
+    }
+    .fixed-width {
+        width: 180px !important;
+        margin-right: 0 !important;
+    }
+    .form-other .my-page-input {
+        width: 90%;
+        margin: 0;
+    }
+    .form-other span {
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gradient-div {
+        background-image: linear-gradient(to right, #11151c, #363f47);
+        padding: 10px;
+        text-align: center;
+        color: white;
+        box-shadow: 5px 5px 5px #555a5f;
+    }
+    .gradient-div-main {
+        font-size: 18px;
+        width: 100%;
+    }
+    .gradient-div-submain {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .mypage-wrapper {
+        padding: 30px
+    }
+    .d-flex-around {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .mypage-menu {
+        width: 30%;
+        text-align: center;
+        padding: 5px;
+        background-color: #b1b1b1;
+        color: #5a5a5a
+    }
+    .mypage-menu-active {
+        background-color: #009524;
+        color: white
+    }
+    .d-flex-right {
+        margin-top: 20px;
+    }
+    .d-flex-right span {
+        font-weight: bold;
+        margin-right: 15px
+    }
+    .d-flex-center {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .green-part {
+        font-weight: bold;
+        color: #009524;
+        text-align: right;
+        margin-right: 15px;
+        font-size: 16px
+    }
+    .gray-part {
+        margin-left: 15px;
+        font-size: 16px
+    }
+    .mypage-detail-wrapper {
+        margin-top: 50px;
+    }
+    .mypage-detail-wrapper .title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 24px
+    }
+    .mypage-detail-wrapper .content {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .mypage-detail-wrapper .my-page-button {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+        color: white;
+        height: 40px;
+    }
+    .mypage-detail-wrapper .my-page-button-red {
+        background-color: rgb(255, 24, 24)
+    }
+    .mypage-detail-wrapper .my-page-button-green {
+        background-color: #009524
+    }
+    .my-page-input {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        height: 40px;
+        border: 1px solid gray;
+        border-radius: 0;
+    }
+    .my-page-input1 {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        border: 1px solid gray;
+        border-radius: 0;
+    }
+    .my-page-form-group {
+        padding: 10px;
+    }
+    .mypage-detail-wrapper .subtitle {
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .mypage-detail-wrapper .subcontent {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .mypage-detail-wrapper .subcontent-red {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        color: rgb(255, 24, 24);
+        ;
+        margin: 35px 0px;
+    }
+    .my-page-danger-button {
+        background-color: rgb(255, 24, 24);
+        font-size: 22px;
+        font-weight: bold;
+        height: 50px !important;
+        border: 2px solid white;
+        box-shadow: 5px 5px 5px #363f47;
+    }
+    .deposit-menu {
+        width: 100px;
+    }
+    .xxxxx {
+        margin-top: 70px !important;
+    }
+    .xxxxxx {
+        /* margin-top: 70px !important; */
+    }
+    .per80 {
+        width: 78% !important;
+        margin: 0 !important;
+        margin-right: 2% !important
+    }
+    .per20 {
+        width: 20% !important;
+        margin: 0 !important;
+    }
+    .d-flex-center span {
+        font-weight: bold;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    .divider1 {
+        height: 1px;
+        background: gray;
+        margin: 20px 0px;
+        margin-top: 70px
+    }
+    .divider2 {
+        height: 1px;
+        background: gray;
+        margin-top: 70px
+    }
+    .fixed-width {
+        margin-right: 0 !important;
+    }
+    .form-other .my-page-input {
+        width: 90%;
+        margin: 0;
+    }
+    .form-other span {
+        font-weight: bold;
+        font-size: 12px
+    }
+}

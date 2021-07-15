@@ -1,0 +1,23 @@
+<?php
+return [
+	'bank_out' =>'Bank withdrawal',
+    'bank_credit' => 'Credit deposit',
+	'bank_number' =>'Withdrawal account number',
+	'bank_invoice' =>'Withdrawal application amount',
+	'bank_info' =>'Remittance destination bank information',
+	'bank_add' =>'Add registered bank',
+	'bank_account_name' =>"* Bank account holder's name",
+	'bank_account_address' =>"* Bank account holder's address",
+	'bank_number' =>'* Recipient account number',
+	'bank_name' =>'* bank name',
+	'bank_shop' =>'* branch name',
+	'bank_type' =>' * Normal / Temporary',
+	'bank_account_add' =>'Add account',
+	'bank_password' =>'Enter M4 password',
+	'bank_1' =>' ◇ Financial instruments transactions involve high risk, so please invest funds that can withstand the loss',
+	'bank_2' =>' ◇ In some cases, the reflection of deposits in the account may be delayed than usual',
+	'bank_3' =>' ◇ If you mistakenly deposit a currency, token, etc. that we do not handle, we will not be able to return it in principle. Even if it can be returned,',
+	'bank_4' =>'You may be required to pay the related fees. ',
+	'bank_5' =>' ◇ A handling fee (2.5%) will be charged for payment. ',
+	'bank_6' =>' ◇ For the foreign exchange rate, the rate of Mitsubishi UFJ Bank (TTS AM11: 00) is applied. ',
+];

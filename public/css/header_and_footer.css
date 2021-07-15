@@ -1,0 +1,301 @@
+﻿/*
+    フッター
+*/
+
+.copyright
+{
+    text-align:left;
+    margin-top:80px;
+}
+
+@media screen and (max-width: 991px)
+{
+    .copyright
+    {
+        text-align:left;
+        margin-top:0px;
+        width:100%;
+        text-align:center;
+    }
+}
+
+.footer_statement
+{
+    font-size:10px;
+    padding:20px;
+}
+
+/**
+    ヘッダー
+*/
+
+.header_menu
+{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991px)
+{
+    .header_menu
+    {
+        margin-top: 0px;
+    }
+}
+
+/*
+    ヘッダー・フッター
+*/
+
+.textcenter
+{
+    text-align:center;
+    padding:0px;
+}
+
+.textcenter2
+{
+    text-align:center;
+}
+
+.black_back
+{
+    background: linear-gradient(0.25turn, #0F141C,#343F47);
+    color:white;
+}
+
+.logo
+{
+    width:100px;
+}
+
+
+  
+.login-button {
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    width: 80%;
+    text-align: center;
+    border-radius: 25px;
+    opacity: 0.95;
+  }
+  
+  .login-button-text {
+    color: #000000;
+    padding: 0px 20px;
+  }
+  
+  .logout-button {
+    justify-content: center;
+    align-items: center;
+    background-color: #363F46;
+    width: 80%;
+    text-align: center;
+    border: 2px solid;
+    border-color:white;
+    border-radius: 25px;
+  }
+
+  .logout-button-text {
+    padding: 0px 20px;
+  }
+
+  @media screen and (max-width: 989px)
+  {
+    .pc-nav {
+        display: none;
+    }
+
+    body {
+        padding-top: 90px !important;
+    }
+
+    span {
+        font-size: 14px
+    }
+
+    .sec5-heading {
+        font-size: 18px !important  
+    }
+
+    .img-width-full {
+        width : 100% !important;
+        margin: 1% 4%  !important
+    }
+
+    .img-margin-0 {
+        margin: 0 !important;
+    }
+
+    .text-center-sp {
+        text-align: center !important;
+    }
+
+    .mt-5 {
+        margin-top: 3% !important
+    }
+
+    input {
+        margin-top: 10px;
+        /* margin-left: 5px */
+    }
+
+    .footer-menu-align {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #header-image {
+        margin-top: -165% !important;
+        margin-left: 30% !important;
+    }
+
+    .banner-button1 , .banner-button2 {
+        font-size: 12px
+    }
+
+    .sec-1 .ddd {
+        font-size: 12px! important;
+        padding: 0  !important;
+    }
+  }
+
+  @media screen and (min-width: 990px)
+  {
+    .sp-nav {
+        display: none;
+    }
+
+    input[name="demo_name"] {
+        width: 90% !important
+    }
+
+    .no-input-margin-div input {
+        margin:0 !important
+    }
+
+    .pc-nav {
+        position: fixed;
+        width: 100%;
+        max-width: 1280px;
+        top: 0;
+        z-index: 100
+    }
+
+    body {
+        padding-top: 120px !important;
+    }
+
+    input {
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+
+    .footer-menu-align {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .banner-button {
+        border: none;
+        margin-top: -140% !important;
+        margin-left:80px  !important
+    }
+
+    .banner-button:hover {
+        border: none
+    }
+
+    .padding-x {
+        padding: 0 10%
+    }
+
+    .padding-xx {
+        padding: 0 6%
+    }
+  }
+  
+
+ 
+    .sp-nav {
+        padding: 10px;
+        margin-bottom: 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index:10;
+        background: linear-gradient(
+            0.25turn
+            , #0F141C,#343F47);
+    }
+
+    .sp-nav .wrapper {
+        display:flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .sp-nav .logo {
+        width: 70px;
+    }
+    .sp-nav .menu {
+        width: 50px;
+    }
+
+    .sp-nav .time {
+        width: 35px;
+        display: none;
+        margin-right: 7px;
+    }
+
+    .sp-menu {
+        z-index:10;
+        position: fixed;
+        top:90px;
+        width: 100%;
+        background-color: #5c6167;
+        padding: 20px 60px;
+        display: none
+    }
+
+    .sp-menu .btn-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .sp-menu .btn-wrapper a {
+        width: 40%;
+        padding: 5px 10px;
+        border-radius: 20px;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        border: 3px solid white;
+        font-weight: bold
+    }
+
+    .sp-menu .btn-wrapper a.logout-btn {
+        color:white
+    }
+
+    .sp-menu .btn-wrapper a.login-btn {
+        background-color:  white;
+        color: #5c6167;
+    }
+
+    .sp-menu .link-container {
+        margin: 20px 0px;
+    }
+
+    .sp-menu .link-container a {
+        font-weight: bold;
+        border-bottom: 1px solid white;
+        width: 100%;
+        display: block;
+        padding-bottom: 5px;
+        text-align: center
+    }

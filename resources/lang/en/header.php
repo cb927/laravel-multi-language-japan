@@ -1,0 +1,22 @@
+<?php
+return [
+    'menu_top' => 'TOP',
+    'menu_new_account' => 'Open a new account',
+    'menu_demo' => 'Demo',
+    'menu_info' => 'GOOD ENOUGH FX Information',
+    'menu_notice' => 'Notice',
+    'menu_faq' => 'FAQ',
+    'menu_login' => 'Login',
+    'menu_logout' => 'Logout',
+    'menu_lang' => 'Language',
+    'lang_jp' => 'Japanese',
+    'lang_cn' => 'Chinese',
+    'lang_en' => 'English',
+    'lang_es' => 'Spanish',
+    'lang_fr' => 'French',
+    'lang_it' => 'Italian',
+    'lang_kr' => 'Korean',
+    'lang_po' => 'Portuguese',
+    'lang_ru' => 'Russian',
+    'lang_sa' => 'Arabic',
+];
